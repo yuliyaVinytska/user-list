@@ -1,0 +1,82 @@
+.user-img{
+    position:absolute;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-left: -110px;
+    margin-top: -20px;
+    border-radius: 50px;
+}
+
+.user-item{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    list-style-type: none;
+    height: 60px;
+    width: 590px;
+    
+}
+
+.user-name{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:500;
+    font-size: 23px;
+    line-height: 45px;
+    margin-left: 10px;
+}
+
+
+.user-msg{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.user-time{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+
+    position: relative;
+    width: 57.08px;
+    height: 16px;
+    left: 8px;
+    top: -30px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    top: -1100px;
+  }
+
+.button {
+    background-color: #310000;
+    border: none;
+    color: white;
+    padding: 10px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+  }
+    
+  button:hover {
+    background-color: #53e958; 
+    transform: scale(1.1); 
+  } 
+  
